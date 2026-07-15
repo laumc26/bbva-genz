@@ -1,70 +1,64 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FG4DV033NV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FG4DV033NV');
-</script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página en GitHub</title>
-    <style>
-        /* Un estilo CSS rápido y bonito para que no se vea tan vacío */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7f6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            text-align: center;
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-        }
-        h1 {
-            color: #24292e; /* Color estilo GitHub */
-            margin-bottom: 10px;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #2ea44f; /* Verde de GitHub */
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
-        .btn:hover {
-            background-color: #22863a;
-        }
-    </style>
-</head>
-<body>
+  <!DOCTYPE html>
+    <html lang="es">
+    <head>
 
-    <div class="container">
-        <h1>¡Hola, GitHub! 🚀</h1>
-        <p>Este es mi primer sitio web básico subido y alojado directamente desde un repositorio de GitHub.</p>
-        <a href="https://github.com" target="_blank" class="btn">Visitar mi GitHub</a>
-    </div>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>NEXYO by BBVA · Banca digital sin límites</title>
+      <meta name="description" content="NEXYO, la banca digital de BBVA para jóvenes y universitarios. Abre tu cuenta gratis en 5 minutos, sin comisiones ocultas y con regalo de bienvenida." />
+      <meta name="keywords" content="NEXYO, BBVA, banca digital, cuenta joven, cuenta universitarios, fintech" />
+      <meta name="robots" content="index, follow" />
+      <link rel="icon" type="image/png" href="./assets/image-DEeyDbGB.png" />
+      <link rel="apple-touch-icon" href="./assets/image-DEeyDbGB.png" />
 
-</body>
-</html>
+      <!-- Open Graph / redes sociales -->
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="NEXYO by BBVA · Banca digital sin límites" />
+      <meta property="og:description" content="Banca sin complicaciones para la generación que no para. Sin comisiones ocultas y con regalo de bienvenida si eres joven o estudiante." />
+      <meta property="og:image" content="./assets/image-DEeyDbGB.png" />
+
+      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+
+      <!-- ============ ANALÍTICA Y SEGUIMIENTO ============ -->
+      <!-- Sustituir GA_MEASUREMENT_ID por el ID real de Google Analytics 4 -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+      </script>
+
+      <!-- Google Tag Manager: sustituir GTM-XXXXXXX por el contenedor real -->
+      <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX');
+      </script>
+
+      <!-- Meta Pixel (Facebook/Instagram Ads): sustituir PIXEL_ID por el ID real -->
+      <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'PIXEL_ID');
+        fbq('track', 'PageView');
+      </script>
+
+      <script type="module" crossorigin src="./assets/index-D40Owqg1.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index--rozLjTo.css">
+    </head>
+
+    <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div id="root"></div>
+
+    </body>
+  </html>
